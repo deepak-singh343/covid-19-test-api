@@ -1,0 +1,36 @@
+{
+  "name": "covid-test",
+  "version": "1.0.0",
+  "description": "An API for the doctors of a Hospital for testing of covid patients",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node index.js",
+    "test": "mocha --timeout  10000000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepak-singh343/covid-19-testing.git"
+  },
+  "author": "Deepak Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepak-singh343/covid-19-testing/issues"
+  },
+  "homepage": "https://github.com/deepak-singh343/covid-19-testing#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.0.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
